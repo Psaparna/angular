@@ -1,0 +1,26 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #16c591;
+}
+li {
+  border-right: 1px solid white;
+  display: inline;
+  float: left;
+}
+a {
+  display: block;
+  padding: 8px;
+}
+li a {
+  display: block;
+  color: aliceblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.active {
+  background-color: red;
+}
